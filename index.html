@@ -1,20 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-  <title>CV Saya</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV Dicky Prawira</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="container">
-    <img src="foto.jpg" alt="Foto Profil">
-    <h1>Dicky Prawira</h1>
-    <p>Email: prawiradicky@email.com</p>
-    <p>Kontak: 08123456789</p>
-    <h2>Pendidikan</h2>
-    <ul>
-      <li>S1 Teknik Informatika - Universitas Esa Unggul (2020-2024)</li>
-    </ul>
+    <header>
+      <img src="foto.jpg" alt="Foto Profil Dicky Prawira" class="profile-img">
+      <h1>Dicky Prawira</h1>
+      <p class="title">Mahasiswa Teknik Informatika</p>
+      <div class="contact-info">
+        <a href="mailto:prawiradicky@email.com"><i class="fas fa-envelope"></i> prawiradicky@email.com</a>
+        <a href="tel:08123456789"><i class="fas fa-phone"></i> 0812-3456-789</a>
+      </div>
+    </header>
+    
+    <section id="about">
+      <h2>Tentang Saya</h2>
+      <p>Saya adalah mahasiswa Teknik Informatika di Universitas Esa Unggul dengan minat khusus dalam pengembangan web dan teknologi cloud.</p>
+    </section>
+    
+    <section id="education">
+      <h2>Pendidikan</h2>
+      <div class="education-item">
+        <h3>Universitas Esa Unggul</h3>
+        <p class="date">2023 - 2027 (Diharapkan)</p>
+        <p>S1 Teknik Informatika</p>
+      </div>
+    </section>
+    
+    <section id="experience">
+      <h2>Pengalaman</h2>
+      <div class="experience-item">
+        <h3>Asisten Laboratorium Komputer</h3>
+        <p class="date">2022 - Sekarang</p>
+        <p>Universitas Esa Unggul</p>
+      </div>
+    </section>
+    
+    <section id="skills">
+      <h2>Kemampuan</h2>
+      <div class="skills">
+        <span class="skill">HTML5</span>
+        <span class="skill">CSS3</span>
+        <span class="skill">JavaScript</span>
+        <span class="skill">MySQL</span>
+        <span class="skill">Git</span>
+         <span class="skill">Responsive Design</span>
+      </div>
+    </section>
+    
+    <footer>
+      <p>&copy; 2023 Dicky Prawira</p>
+    </footer>
   </div>
+
   <script src="script.js"></script>
 </body>
 </html>
